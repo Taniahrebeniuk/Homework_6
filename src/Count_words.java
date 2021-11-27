@@ -14,3 +14,4 @@ public class Count_words {
         System.out.println("Total number of words in string are: "+ (countWords+1));
     }
 }
+
