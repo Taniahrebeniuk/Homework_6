@@ -18,7 +18,7 @@ public class Letter_rotation {
             }
 
             j = 0;
-            while (j < i)  {
+            while (j < i) {
                 sb.insert(k, str.charAt(j));
                 j++;
                 k++;
@@ -28,11 +28,9 @@ public class Letter_rotation {
         }
     }
 
-    public static void main(String[] args)
-    {
-        String  str = new String("help");
+    public static void main(String[] args) {
+        String str = new String("help");
         printRotatedString(str);
     }
 }
-
 
